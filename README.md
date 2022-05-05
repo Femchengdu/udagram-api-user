@@ -1,4 +1,4 @@
-# Feed service of the microservices project
+# User service of the microservices project
 
 This user part of a micro-services project that allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
