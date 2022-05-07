@@ -15,7 +15,7 @@ spec:
         app: user
     spec:
       containers:
-      - name: udagram-api-user
+      - name: user-svc
         image: rdevcd2020/udagram-api-user
         ports:
         - containerPort: 8080
