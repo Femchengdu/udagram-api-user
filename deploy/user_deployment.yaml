@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: rdevcd2020/udagram-api-user:v3
+        image: rdevcd2020/udagram-api-user:v4
         env:
         - name: AWS_PROFILE
           valueFrom:
@@ -64,4 +64,5 @@ spec:
               name: k8s-config-map
               key: URL
         ports:
-        - containerPort: 8080
+        - name: http
+          containerPort: 8080
